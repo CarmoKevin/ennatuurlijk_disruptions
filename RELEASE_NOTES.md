@@ -1,5 +1,10 @@
 # Release Notes
 
+## v3.0.2 Release Notes
+
+- **Locations can be added again**: restored the location subentry flow that v3.0.1 removed. Without it no location could be added, so no sensors were created.
+- **Home Assistant 2026.12**: reconfigure no longer schedules a second reload next to the update listener.
+
 ## v3.0.0 Release Notes
 
 ### Major Architecture Refactoring & Calendar Aggregation
